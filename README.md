@@ -4,13 +4,13 @@ A bash-based SNMPv3 credential brute-forcer for penetration testing and CTF enga
 
 ## Features
 
-- **Multi-protocol** — tests MD5 and SHA authentication (configurable)
-- **authPriv support** — optional DES/AES encryption brute-forcing with `-privfile`
-- **Multi-user** — accepts a single username or a file of usernames
-- **Live progress** — real-time display of current attempt
-- **Auto-logging** — timestamped log file with all valid credentials found
-- **Connectivity pre-check** — detects open ports and noAuthNoPriv misconfigs
-- **Next-step guidance** — prints ready-to-run snmpwalk commands when creds hit
+- **Multi-protocol** tests MD5 and SHA authentication (configurable)
+- **authPriv support**  optional DES/AES encryption brute-forcing with `-privfile`
+- **Multi-user** accepts a single username or a file of usernames
+- **Live progress**  real-time display of current attempt
+- **Auto-logging**  timestamped log file with all valid credentials found
+- **Connectivity pre-check**  detects open ports and noAuthNoPriv misconfigs
+- **Next-step guidance** prints ready-to-run snmpwalk commands when creds hit
 
 ## Installation
 
